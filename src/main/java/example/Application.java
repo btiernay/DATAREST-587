@@ -21,7 +21,7 @@ public class Application {
 				"/usr/bin/curl",
 				"-v" ,
 				"-s",
-	            "http://localhost:8080/alps/entities").start();
+				"http://localhost:8080/alps/entities").start();
 		p.waitFor();
 	}
 
